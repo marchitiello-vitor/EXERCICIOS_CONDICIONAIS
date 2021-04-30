@@ -1,0 +1,24 @@
+algoritmo "semanas"
+var
+nascimento
+atual
+diferença
+semanas
+
+inicio
+
+        ESCREVAL ("Digite o ano de seu nascimento: ");
+
+            LEIA = (nascimento)
+
+            LEIA = (Atual) = Calendario.anual_Atual;
+
+            LEIA (diferença) = Atual - nascimento; 
+
+            ESCREVAL ("Sua idade: " + diferença);
+
+            LEIA = (semanas) = diferença * 52;
+
+            ESCREVAL ("Sua idade em semanas: " + semanas);
+
+fimalgoritmo

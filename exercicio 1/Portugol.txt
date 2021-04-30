@@ -1,0 +1,24 @@
+algoritmo "idade nascimento"
+var
+idadeMeses
+idadeDias
+idadeHoras
+idadeMinutos
+
+inicio
+
+ESCREVAL ("Digite sua idade:");
+
+    LEIA (idade)
+            
+        idadeMeses = idade * 12
+        idadeDias = idade * 365
+        idadeHoras = idadeDias * 24
+        idadeMinutos = idadeHoras * 60
+
+        ESCREVAL ("Sua idade em meses: " + idadeMeses);
+        ESCREVAL ("Sua idade em dias: " + idadeDias);
+        ESCREVAL ("Sua idade em horas: " + idadeHoras);
+        ESCREVAL ("Sua idade em minutos: " + idadeMinutos);
+
+fimalgoritmo

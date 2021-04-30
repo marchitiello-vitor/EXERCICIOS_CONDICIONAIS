@@ -1,0 +1,20 @@
+algoritmo "salario
+var
+salario
+beneficio
+
+inicio
+            ESCREVAL ("Qual o seu salario?: ")
+            LEIA (salario)
+
+            SE (salario <= 500)
+            {
+                LEIA Beneficio = salario * 1.3;
+                ESCREVAL ("Você foi aprovado para receber o beneficio. Seu salario atual é: " + Beneficio);
+            }
+            SENÃO
+            {
+                // código 2
+                ESCREVAL ("Você foi recusado para o beneficio.");
+
+fimalgoritmo
